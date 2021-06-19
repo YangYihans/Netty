@@ -9,10 +9,10 @@ import java.util.Set;
 
 public class NioServer {
     public static void main(String[] args) throws Exception {
-        // 1. 创建ServerSocketChannel
+        // 1. 创建ServerSocketChannel 在服务端监听新的客户端的socket连接
         ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
 
-        // 2. 得到一个Selector对象
+        // 2. 得到一个Selector对象 selector是windowsSelectorImpl的一个实例
         Selector selector = Selector.open();
 
         // 3. 绑定一个端口6666, 在服务器端进行监听
