@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Netty.iml" filepath="$PROJECT_DIR$/.idea/Netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Netty_simple/Netty_simple.iml" filepath="$PROJECT_DIR$/Netty_simple/Netty_simple.iml" />
       <module fileurl="file://$PROJECT_DIR$/Nio_group_chat/Nio_group_chat.iml" filepath="$PROJECT_DIR$/Nio_group_chat/Nio_group_chat.iml" />
       <module fileurl="file://$PROJECT_DIR$/nio/nio.iml" filepath="$PROJECT_DIR$/nio/nio.iml" />
     </modules>
